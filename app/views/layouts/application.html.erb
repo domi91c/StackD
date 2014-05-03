@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Untitled37</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<!--Header starts-->
+<div id="container" >
+  <div id="welcome_header" >
+    <div class="logobox" >
+    </div>
+    <div class="navbar" >
+      <hr>
+
+      <hr>
+      <li>Buy/Sell</li>
+      <hr>
+      <li>Blog</li>
+      <hr>
+      <li>Notes</li>
+      <hr>
+      <li>Help</li>
+      <hr>
+      <li>Settings</li>
+      <hr>
+      <div class="loginbar" >
+        <div class="loginbutton" >
+        </div>
+        <div class="loginbutton" >
+
+
+          <p class="notice"><%= notice %></p>
+          <p class="alert"><%= alert %></p>
+          <p>the notice and alert things for devise are here</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--End of header-->
+
+<%= yield %>
+
+<!-- Footer starts here -->
+
+<div id="footer">
+  <div class="footbox" >
+    <div class="foot_top" >
+      <div class="foot_strip" >
+        <li style="font-weight:bold;color:black;margin-bottom:5px;">Current Schools</li>
+        <li>Humber College</li>
+        <li>Western University</li>
+        <li>Brock University</li>
+        <li>Seneca College</li>
+        <li>York University</li>
+        <li>Uoft University</li>
+      </div>
+      <div class="foot_strip" >
+        <li style="font-weight:bold;color:black;margin-bottom:5px;">Pages</li>
+        <li>Home</li>
+        <li>Buy/Sell</li>
+        <li>Blog</li>
+        <li>Help</li>
+        <li>Settings</li>
+      </div>
+      <div class="foot_strip" >
+        <li style="font-weight:bold;color:black;margin-bottom:5px;">About Us</li>
+        <li>Our Team</li>
+        <li>About</li>
+        <li>Terms</li>
+        <li>Privacy</li>
+
+      </div>
+      <div class="foot_strip" >
+        <li style="font-weight:bold;color:black;margin-bottom:5px;">Courses</li>
+        <li>Science</li>
+        <li>Math</li>
+        <li>Engineering</li>
+        <li>English</li>
+        <li>Econmics</li>
+      </div>
+    </div>
+    <div class="foot_bottom" >
+
+    </div>
+  </div>
+
+</div>
+<!-- Footer ends here -->
+
+</body>
+</html>

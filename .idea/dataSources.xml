@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1577518814">
+    <data-source source="LOCAL" name="Rails stacker: development" uuid="bcf47bf1-4d5d-462d-85b9-a0eb281bbc9e">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:untitled37_development</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails stacker: test" uuid="3f20591d-9a6e-4c3f-b47e-57f705d4d2a6">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:untitled37_test</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

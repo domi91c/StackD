@@ -1,0 +1,192 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+#welcome_header
+{
+    min-width:960px;
+    height:60px;
+    background:#F5F5F5;
+    border-bottom:1px solid lightgrey;
+
+}
+.logobox
+{
+    width:200px;
+    height:59px;
+    background:url("logo.png");
+    float:left;
+    box-shadow:0px 0px 0px 1px #EDEDED;
+}
+.navbar
+{
+    width:760px;
+    height:60px;
+    margin:auto;
+    float:right;
+
+}
+.navbar li
+{
+    height:40px;
+    float:left;
+    padding:10px;
+    font-size:18px;
+    line-height:45px;
+    color:#58585B;
+    font-family:Georgia;
+}
+.navbar li:hover
+{
+    cursor:pointer;
+    background:white;
+}
+.loginbar
+{
+    width:220px;
+    height:30px;
+    float:right;
+    background:url("Login.png");
+    margin-top:15px;
+    margin-right:20px;
+}
+.loginbutton
+{
+    width:100px;
+    height:100%;
+    float:left;
+    margin-left:10px;
+    box-shadow:0px 0px 0px 1px lightgrey;
+
+}
+.loginbutton:hover
+{
+    box-shadow:0px 0px 0px 1px grey;
+    cursor:pointer;
+}
+
+header {
+
+}
+.nav-up {
+    top: -40px; // same as header height. use variables in LESS/SASS
+}
+
+body {
+    padding-top: 40px;
+}
+
+/* ===== Footer begins here ===== */
+#footer
+{
+    width:100%;
+    min-width:1280px;
+    text-align:center;
+    float:left;
+    background:#F5F5F5;
+    border-top:1px solid lightgrey;
+}
+.footbox
+{
+    margin:auto;
+    width:1280px;
+}
+.foot_bottom
+{
+    width:100%;
+    height:100px;
+    float:left;
+    border-top:1px solid lightgrey;
+}
+
+.foot_top
+{
+    margin:auto;
+    margin-top:20px;
+    width:540px;
+    background:green;
+}
+.foot_strip
+{
+    margin-left:40px;
+    margin-bottom:20px;
+    height:100%;
+    float:left;
+}
+.foot_strip li
+{
+    padding:5px;
+    color:#7A7A7A;
+    font-family:verdana;
+    text-align:left;
+}
+.foot_strip li:hover
+{
+    color:#F5BEA6;
+    cursor:pointer;
+}
+
+/* ===== Footer ends here ===== */
+
+/*Global information*/
+hr
+{
+    width:1px;
+    height:50px;
+    border:none;
+    background:#EDEDED;
+    float:left;
+}
+html
+{
+    margin:0px;
+    padding:0px;
+}
+body {
+    width:100%;
+    font-family:futura;
+    font-size:12px;
+}
+#container
+{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+}
+a
+{
+    text-decoration:none;
+    color:white;
+}
+a:hover
+{
+    text-decoration:underline;
+}
+
+ul, li, label
+{
+    font-size:12px;
+    list-style:none;
+    color:#404041;
+    font-family:futura;
+}
+select
+{
+    font-size:10px;
+    color:#58585B;
+}
+
+/*Global information ends here*/

@@ -1,0 +1,140 @@
+
+
+<body>
+<!-- Container starts here -->
+
+  <div id="buytop" >
+    <div class="searchbar" >
+      <div class="sortbar">
+        <div class="sortbtn" >
+          <select class="sortselect">
+            <option>Select</option>
+            <option>Price: Low to High</option>
+            <option>Price: High to Low</option>
+            <option>With picture</option>
+            <option>Without picture</option>
+          </select>
+        </div>
+      </div>
+      <div class="searchcont" >
+        <div class="searchinput" >
+          <input type="text" placeholder="Search by Name, Category, ISBN..."class="searchbox" >
+
+        </div>
+        <div class="searchbtn" >
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="buymain" >
+    <div class="buyside" >
+      <div class="sidetop" >
+      </div>
+      <div class="sidebox" >
+        <li>What are you looking for:</li>
+        <select>
+          <option>Select</option>
+          <option>Books</option>
+          <option>Other</option>
+        </select>
+      </div>
+      <div class="sidebox" >
+        <li>Title:</li>
+        <input type="text" placeholder="" />
+      </div>
+      <div class="sidebox" >
+        <li>ISBN:</li>
+        <input type="text" />
+      </div>
+      <div class="sidebox" >
+        <li>Category:</li>
+        <select>
+          <option>Select</option>
+          <option>Electronics</option>
+          <option>Furniture</option>
+          <option>Clothing</option>
+        </select>
+      </div>
+      <div class="sidebox" >
+        <li>School:</li>
+        <select>
+          <option>Select</option>
+        </select>
+      </div>
+      <div class="sidebox" >
+        <li>Course:</li>
+        <select>
+          <option>Select</option>
+        </select>
+      </div>
+      <div class="sidebox" >
+        <li>Condition:</li>
+        <select>
+          <option>Select</option>
+        </select>
+      </div>
+    </div>
+    <div class="buycont" >
+
+      <div class="buytop" >
+        <div class="buybtn" >
+        </div>
+        <div class="buybtn" >
+        </div>
+      </div>
+      <div class="buychoices" >
+        <div class="choiceblock" >
+          <hr>
+          <div class="buychoicebtn" >
+          </div>
+          <li>Books</li>
+          <hr>
+          <div class="buychoicebtn" >
+          </div>
+          <li>Humber College</li>
+          <hr>
+
+        </div>
+      </div>
+
+      <% @ads.each do |ad| %>
+
+          <div class="buybottom" >
+            <div class="buyblock" >
+              <div class="buyframe" >
+                <%= image_tag(ad.image_url, size: "160x160") %>
+              </div>
+
+              <div class="buyinfo" >
+                <h2> <%= ad.title %> </h2>
+                <h3> <%= ad.description %> </h3>
+
+              </div>
+            </div>
+            <tbody>
+            <tr>
+
+
+              <td style="font-size: 10"><%= link_to 'Show', ad %> </td>
+
+
+              <td><%= link_to 'Edit', edit_ad_path(ad) %></td>
+              <td><%= link_to 'Destroy', ad, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            </tr>
+            </tbody>
+            <hr>
+      <% end %>
+      </div>
+      <div class="buymorebar"	>
+        <hr>
+        <h3> <%= link_to 'New Ad', new_ad_path %> </h3>      </h1>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+</body>
+<!-- Main container ends here -->
+
+
