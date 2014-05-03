@@ -2,11 +2,11 @@
 Rails.application.routes.draw do
 
   root to: 'static#show'
+  devise_for :users
 
   resources :ads
   resources :static
 
-  devise_for :users
 
 
   get "users/sign_in"
