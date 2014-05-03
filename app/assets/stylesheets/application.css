@@ -38,6 +38,21 @@
     float:right;
 
 }
+.navbar input
+{
+    height:40px;
+    float:left;
+    padding:10px;
+    font-size:18px;
+    line-height:45px;
+    color:#58585B;
+    font-family:Georgia;
+}
+.navbar input:hover
+{
+    cursor:pointer;
+    background:white;
+}
 .navbar li
 {
     height:40px;
