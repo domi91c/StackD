@@ -29,10 +29,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="show.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/static/show.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.391924" vertical-offset="45" max-vertical-offset="645">
+            <state vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="645">
               <caret line="14" column="42" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="42" />
               <folding />
             </state>
@@ -49,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.875" vertical-offset="240" max-vertical-offset="1530">
-              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.10368664" vertical-offset="240" max-vertical-offset="1530">
+              <caret line="19" column="35" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -804,18 +804,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/static/show.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875" vertical-offset="240" max-vertical-offset="1530">
-          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        <state vertical-scroll-proportion="-4.2" vertical-offset="0" max-vertical-offset="645">
+          <caret line="14" column="42" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/static/show.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.391924" vertical-offset="45" max-vertical-offset="645">
-          <caret line="14" column="42" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.10368664" vertical-offset="240" max-vertical-offset="1530">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
