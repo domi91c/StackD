@@ -113,11 +113,7 @@
             </div>
             <tbody>
             <tr>
-
-
-              <td style="font-size: 10"><%= link_to 'Show', ad %> </td>
-
-
+              <td><%= link_to 'Show', ad, class: "linkformat" %> </td>
               <td><%= link_to 'Edit', edit_ad_path(ad) %></td>
               <td><%= link_to 'Destroy', ad, method: :delete, data: { confirm: 'Are you sure?' } %></td>
             </tr>
