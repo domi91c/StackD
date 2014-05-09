@@ -1,28 +1,15 @@
-== README
+== Stack-D
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Stack-D is a social network for students. Users will be able to network with students in their
+classes, in their college, and in other colleges around the world.
 
-Things you may want to cover:
+Features:
 
-* Ruby version
+* Share class notes
 
-* System dependencies
+* Start a project on the site and invite others to help.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+* Buy and sell course/school materials.
 
 * ...
 
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
